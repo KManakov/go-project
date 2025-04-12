@@ -1,0 +1,32 @@
+.home-page {
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home-page h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.home-content {
+  margin-top: 40px;
+}
+
+.home-content p {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.action-buttons a {
+  text-decoration: none;
+  color: white;
+} 
