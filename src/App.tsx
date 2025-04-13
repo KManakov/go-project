@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import TasksPage from './pages/TasksPage';
+import Login from './components/Login';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/tasks" element={<TasksPage />} />
+            <Route path="/login" element={<Login />} />
           </Routes>
         </main>
       </div>
